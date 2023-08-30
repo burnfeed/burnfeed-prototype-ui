@@ -1,0 +1,1 @@
+export const simPubAddress = "0xdD8BBEC1157398B53340d21BE824B43e17D4CA62";
