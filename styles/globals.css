@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body,
+main {
+  background-color: var(--wcm-color-bg-1);
+}
+
+img.emoji {
+  display: inline-block;
+  height: 1rem;
+  width: 1rem;
+  margin: 0 0.05rem 0 0.1rem;
+  vertical-align: -0.1rem;
+}
+
+.toast-info {
+}
+
+.toast-success {
+  background-color: var(--wcm-success-color) !important;
+  background-image: none !important;
+}
+
+.toast-error {
+  background-color: var(--wcm-error-color) !important;
+  background-image: none !important;
+}
+
+/* 0 tweet, 1 comment, 2 like, 3 unlike, 4 follow, 5 unfollow, 6 retweet 7 quote */
+.action-item-color-0 {
+  color: hsl(var(--p));
+}
+.action-item-color-1 {
+  color: hsl(var(--wa));
+}
+.action-item-color-2 {
+  color: hsl(var(--s));
+}
+.action-item-color-3 {
+  color: hsl(var(--s));
+}
+.action-item-color-4 {
+  color: hsl(var(--a));
+}
+.action-item-color-5 {
+  color: hsl(var(--a));
+}
+.action-item-color-6 {
+  color: hsl(var(--in));
+}
+.action-item-color-7 {
+  color: hsl(var(--in));
+}
